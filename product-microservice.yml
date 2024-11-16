@@ -19,6 +19,8 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MariaDBDialect
+server:
+  port: 8081
 
 eureka:
   client:

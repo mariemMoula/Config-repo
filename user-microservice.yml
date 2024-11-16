@@ -14,6 +14,9 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MariaDBDialect
 
+server:
+  port: 8082
+
 cloud:
   config:
     uri: http://localhost:8888 # Adresse de votre Config Server
